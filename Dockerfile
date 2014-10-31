@@ -1,4 +1,4 @@
-FROM vettl / amazon-linux
+FROM vettl/amazon-linux
 RUN yum upgrade
 RUN git clone git://github.com/rubycas/rubycas-server.git /rubycas-server
 RUN cd /rubycas-server && git checkout 23e3852f9f346b73a159b0fa44c849496798f6e2
